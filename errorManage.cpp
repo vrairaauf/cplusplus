@@ -18,4 +18,5 @@ int main(){
 	}catch(Exception ex){
 		std::cout << "exception handled : "<< ex.getExceptionTitle();
 	}
+	return 0;
 }
