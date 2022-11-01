@@ -1,4 +1,8 @@
 #include <iostream>
+/*
+some predefined method to manage pair
+p.swap() -> to change into two pairs 
+*/
 int main(){
 	try{
 		std::pair<int, std::string> p(1, "raouf abidi");
