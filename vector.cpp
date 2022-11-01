@@ -10,7 +10,7 @@ int main(){
 		std::cout << v[cmp] << std::endl;
 	v.push_back(2);
 	v.push_back(1);
-	std::sort(v.begin(), v.end());
+	sort(v.begin(), v.end());
 	for(int cmp=0; cmp<12; cmp++)
 		std::cout << v[cmp] << std::endl;
 	std::cout <<"size : " << v.size() << std::endl << "capacity : " << v.capacity() << std::endl;
